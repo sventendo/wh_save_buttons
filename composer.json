@@ -1,0 +1,30 @@
+{
+	"name": "widerheim/wh_save_buttons",
+	"type": "typo3-cms-extension",
+	"description": "Reverts the drop down save buttons in the backend to 3 single buttons",
+	"homepage": "http://widerheim.de/",
+	"keywords": ["TYPO3 CMS", "Save Buttons", "Productivity", "Nostalgia"],
+	"authors": [
+		{
+			"name": "Sven Friese",
+			"email": "sven@widerheim.de",
+			"role": "Developer",
+			"homepage": "http://widerheim.de"
+		}
+	],
+	"license": "GPL-2.0+",
+	"version": "1.1.0",
+	"require": {
+		"php": "^7.0",
+		"typo3/cms-core": "^8.7"
+	},
+	"replace": {
+		"mask": "self.version",
+		"typo3-ter/mask": "self.version"
+	},
+	"autoload": {
+		"psr-4": {
+			"Widerheim\\WhSaveButtons\\": "Classes/"
+		}
+	}
+}
